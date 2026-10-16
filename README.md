@@ -85,19 +85,32 @@
 
 ## 安装
 
-```bash
-npx skills add liangfeiiiii/painting-video-storyboard
+不用敲命令。打开你的 Agent 对话框，把下面这句话连同链接发给它：
+
+```
+请帮我安装这个技能：https://github.com/liangfeiiiii/painting-video-storyboard
 ```
 
-或者手动把 `painting-video-storyboard/` 文件夹放进你的 Agent 技能目录。
+剩下的事 Agent 自己会做，它知道去哪找文件、放到哪个目录。装完它会告诉你一声。
 
-装好之后丢一张名画过去就能触发：
+然后丢一张名画过去就能触发：
 
 ```
 > 名画真人化，这张
 > 给这幅画写 Seedance 提示词
 > 把蒙娜丽莎做成 30 秒短片
 ```
+
+<details>
+<summary>老手想自己动手？</summary>
+
+```bash
+npx skills add liangfeiiiii/painting-video-storyboard
+```
+
+或者手动把 `painting-video-storyboard/` 文件夹放进 Agent 的技能目录。
+
+</details>
 
 ---
 
